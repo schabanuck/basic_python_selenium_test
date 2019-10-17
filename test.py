@@ -10,5 +10,7 @@ search_field.send_keys("Test Automation")
 search_button.click()
 
 assert "Test automation" in driver.title
+assert "Test 1automation" in driver.title
+assert "Test 2automation" in driver.title
 
 driver.quit()
